@@ -1,6 +1,6 @@
 package org.racoonman.spring.springjdosample;
 
-import org.racoonman.spring.springjdosample.dao.HutanDao;
+import org.racoonman.spring.springjdosample.dao.PersonsDao;
 import org.racoonman.spring.springjdosample.model.Person;
 import java.util.UUID;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
 
     @Autowired
-    HutanDao daoService;
+    PersonsDao daoService;
 
     @RequestMapping("/test")
     public String index() {

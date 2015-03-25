@@ -7,7 +7,7 @@ import java.util.List;
  *
  * @author daniel
  */
-public interface HutanDao {
+public interface PersonsDao {
     List<Person> getPersons();
 
     public void savePerson(Person c);

@@ -17,7 +17,7 @@ import org.springframework.transaction.annotation.Transactional;
 @Transactional
 @Component
 //@Repository
-public class HutanDaoImpl implements HutanDao {
+public class PersonsDaoImpl implements PersonsDao {
     
     @Autowired
     @Qualifier("pmfTransactionAware")
