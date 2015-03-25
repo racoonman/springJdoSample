@@ -98,7 +98,7 @@
                 <configuration>
                     <api>JDO</api>
                     <props>${dnFile}</props>
-                    <log4jConfiguration>${basedir}/config/log4j.properties</log4jConfiguration>
+                    <!--<log4jConfiguration>${basedir}/config/log4j.properties</log4jConfiguration>-->
                     <verbose>true</verbose>
                 </configuration>
                 <executions>
